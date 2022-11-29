@@ -1,0 +1,29 @@
+POST http://localhost:9090/student/save
+Content-Type: application/json
+
+{
+  "id":99,
+  "name": "name_1",
+  "email": "nnn@gmail.com",
+  "date_of_birth": "11/11/1111"
+}
+
+###
+GET http://localhost:9090/student/list
+Content-Type: application/json
+
+###
+DELETE http://localhost:9090/student/
+Content-Type: application/json
+
+{
+  "id":2,
+  "name": "name_1",
+  "email": "nnn@gmail.com",
+  "date_of_birth": "11/11/1111"
+}
+
+
+
+
+
